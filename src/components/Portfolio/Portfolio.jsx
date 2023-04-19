@@ -22,28 +22,29 @@ const Work = () => {
           {projects.map((exp, i) => {
             return (
               <div>
-              <div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
-                <div className={`flexCenter ${css.showCase}`}>
-                  <img onClick={() =>
-                    window.open(exp.link)
-                  } variants={fadeIn("up", "tween", .5, .6)} src={exp.image} alt="project" />
-                </div>
-                <div className={css.role}>
-                  <h1>{exp.name}</h1>
-                  <p>{exp.role}</p>
-                  <h4>Key Technologies Used :</h4>
-                  <div className={css.boxContainer}>
-                    {exp.tech.split(" ").map((word, index) => (
-                      <div key={index} className={css.box}>
-                        {word}
-                      </div>
-                    ))}
+                <div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
+                  <div className={`flexCenter ${css.showCase}`}>
+                    <img onClick={() =>
+                      window.open(exp.link)
+                    } variants={fadeIn("up", "tween", .5, .6)} src={exp.image} alt="project" />
                   </div>
-                </div>
+                  <div className={css.role}>
+                    <h1>{exp.name}</h1>
+                    <p>{exp.role}</p>
+                    <h4>Key Technologies Used :</h4>
+                    <div className={css.boxContainer}>
+                      {exp.tech.split(" ").map((word, index) => (
+                        <div key={index} className={css.box}>
+                          {word}
+                        </div>
+                      ))}
+                    </div>
+                  </div>
 
-                
-              </div>
-              <div className={css.line}></div>
+
+                </div>
+                {/* conditionally render the line div */}
+                {i !== projects.length - 1 && <div className={css.line}></div>}
               </div>
             );
           })}
