@@ -73,7 +73,7 @@ export const projects = [
     link: "https://schar.netlify.app/",
     image: "./showCase1.png",
     name: "Char",
-    tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JavaScript",
+    tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JS",
     // tenure: "Aug 2014 - Sep 2016",
     role: "A responsive women's fashion eCommerce website, including features such as product listing, search functionality, and a user-friendly shopping cart, along with admin features for inventory management, product categorization, and order fulfillment, resulting in improved website performance and user experience. ",
     // detail:
@@ -92,12 +92,12 @@ export const projects = [
   // },
   {
     place: "Data Structures",
-    link: "https://schar.netlify.app/",
-    image: "./showCase1.png",
-    name: "Char",
-    tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JavaScript",
+    link: "https://aicasso.netlify.app/",
+    image: "./showCase2.png",
+    name: "AIcasso",
+    tech: "APIs ReactJS ExpressJS MongoDB NodeJS HTML CSS JS Vite",
     // tenure: "Aug 2014 - Sep 2016",
-    role: "A responsive women's fashion eCommerce website, including features such as product listing, search functionality, and a user-friendly shopping cart, along with admin features for inventory management, product categorization, and order fulfillment, resulting in improved website performance and user experience. ",
+    role : "A dynamic web application that utilizes openAI's API to generate unique images based on given prompts, it provides a platform for users to view the generated images on a community page. In addition, the website features a search functionality that enables users to search for images using keywords or tags.",
     // detail:
     //   "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
   },
