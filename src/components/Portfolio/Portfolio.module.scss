@@ -12,11 +12,12 @@
             gap: 1.5rem;
             justify-content: space-around;
             flex-wrap: wrap;
-
+           
             >img {
 
                 @media (max-width: $sm) {
                     width: 100%;
+                    // max-width: none;
                 }
 
                 border-radius: 20px;
@@ -107,3 +108,16 @@
 
     }
 }
+
+@media only screen and (max-width: $sm) {
+    .exp {
+      display: flex;
+      flex-direction: column;
+    }
+    .showCase img {
+      width: 100%;
+    }
+    .role {
+      margin-top: 20px;
+    }
+  }
