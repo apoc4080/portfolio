@@ -71,7 +71,7 @@ export const projects = [
   {
     place: "Data Structures",
     link: "https://taskhivee.netlify.app/",
-    image: "../showCase3.png",
+    image: "./showCase3.png",
     name: "TaskHive",
     tech: "ReactJS ExpressJS MongoDB NodeJS HTML CSS JS",
     // tenure: "Aug 2014 - Sep 2016",
