@@ -24,7 +24,7 @@ export const projectExperience = [
 
 export const WhatDoIHelp = [
   "I am an enthusiastic learner, developer, having a great interest in problem solving, web technologies. Looking for some great opportunities in an organization where I can grow my skills and contribute to the organization.",
-  "I am a pre-final year undergrad student at The LNMIIT, pursuing my B.Tech degree in Communication and Computer Engineering (CCE) with an overall CGPA of 9.03.",
+  "I am a final year undergrad student at The LNMIIT, pursuing my B.Tech degree in Communication and Computer Engineering (CCE) with an overall CGPA of 8.95.",
 ];
 
 export const workExp = [
@@ -121,7 +121,7 @@ export const comments = [
     comment:[
       "2020-2024",
       "The LNMIIT,Jaipur",
-      "CGPA : 9.03"
+      "CGPA : 8.95"
     ],
     img: "./people2.png",
   },
