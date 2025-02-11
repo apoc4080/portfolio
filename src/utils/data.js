@@ -23,11 +23,12 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "I am an enthusiastic learner, developer, having a great interest in problem solving, web technologies. Looking for some great opportunities in an organization where I can grow my skills and contribute to the organization.",
-  "I am a final year undergrad student at The LNMIIT, pursuing my B.Tech degree in Communication and Computer Engineering (CCE) with an overall CGPA of 8.95.",
+  "I am a passionate Full Stack Engineer with a strong interest in problem-solving and web technologies. I have hands-on experience in building scalable web applications and services, and I am always eager to learn and grow in a dynamic environment.",
+  "I recently worked as a Software Engineer at Whatfix, where I engineered a JavaScript-based RuleEngine Service, designed a scalable visibility rules framework, and developed tools for performance monitoring and anomaly detection.",
+  "I am a graduate from The LNMIIT with a B.Tech in Communication and Computer Engineering, achieving an overall CGPA of 8.95. I am now looking for new opportunities to contribute to innovative projects and further enhance my skills.",
 ];
 
-export const workExp = [
+export const mySkills = [
   {
     place: "Data Structures",
     // tenure: "Aug 2014 - Sep 2016",
