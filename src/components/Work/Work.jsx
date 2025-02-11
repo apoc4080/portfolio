@@ -1,5 +1,5 @@
 import React from "react";
-import { workExp } from "../../utils/data";
+import { mySkills } from "../../utils/data";
 import css from "./Work.module.scss";
 import {motion} from 'framer-motion'
 import { draw, fadeIn, slideIn, staggerChildren, textVariant2, zoomIn } from "../../utils/motion";
@@ -19,7 +19,7 @@ const Work = () => {
 
         <div className={`flexCenter ${css.experiences}`}>
         {/* {workExp.map((paragraph, i)=> <span className='secondaryText' key={i}>{paragraph.place}</span>)} */}
-          {workExp.map((exp, i) => {
+          {mySkills.map((exp, i) => {
             return (
               <div variants={textVariant2} key={i} className={`flexCenter ${css.exp}`}>
                 <div className={css.post}>
